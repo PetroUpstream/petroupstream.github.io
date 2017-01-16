@@ -3,16 +3,18 @@ body {
 }
 
 .main {
-  background-image: url('../images/petro_main.jpg');
   background-size: cover;
-  height: 700px;
+  height: 80vh;
   margin: 0;
 }
 
 .main .heading {
-  text-align: center;
-  padding-top: 200px;
+  position: absolute;
+  z-index: 5;
+  top: 200px;
   color: white;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .about {
@@ -188,4 +190,9 @@ a:active {
 #accordion .panel-heading.active a:before {
   transform: rotate(0deg);
   transition: all 0.5s;
+}
+
+.carousel-image {
+  height: 80vh!important;
+  width: 100%;
 }
