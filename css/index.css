@@ -207,3 +207,20 @@ a:active {
 .contact.container .title h3 {
   color: white;
 }
+
+
+.container h3{
+  color: black;
+}
+.container .image_container {
+  background: url(../images/pic3.png) no-repeat;
+  background-size: contain;
+  background-position-x: 50%;
+  height: 500px;
+  border-bottom: 2px solid;
+}
+
+.about p a {
+  color: white;
+  pointer: cursor;
+}
