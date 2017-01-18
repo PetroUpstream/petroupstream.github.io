@@ -197,3 +197,12 @@ a:active {
   height: 80vh!important;
   width: 100%;
 }
+
+.contact.container {
+  background-color: black;
+  color: white;
+}
+
+.contact.container .title h3 {
+  color: white;
+}
