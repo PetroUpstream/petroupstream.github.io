@@ -11,10 +11,11 @@ body {
 .main .heading {
   position: absolute;
   z-index: 5;
-  top: 200px;
+  top: 35%;
   color: white;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 50px;
 }
 
 .about {
