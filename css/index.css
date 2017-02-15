@@ -31,7 +31,7 @@ body {
 }
 
 .diagram {
-  background-image: url('../images/cyclic.jpg');
+  background-image: url('../images/changedimage.png');
   height: 200px;
 }
 
@@ -213,7 +213,7 @@ a:active {
   color: black;
 }
 .container .image_container {
-  background: url(../images/pic3.png) no-repeat;
+  background: url(../images/changedimage.png) no-repeat;
   background-size: contain;
   background-position-x: 50%;
   height: 500px;
